@@ -8,7 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="css/style.css" rel="stylesheet">
     <!-- You can change the theme colors from here -->
-    <link href="css/colors/green-dark.css" id="theme" rel="stylesheet">
+    <link href="vistas/css/colors/green-dark.css" id="theme" rel="stylesheet">
 
 </head>
 
@@ -25,7 +25,7 @@
                 <!-- ============================================================== -->
                 <div class="row page-titles">
                     <div class="col-md-5 col-8 align-self-center">
-                        <h3 class="text-themecolor m-b-0 m-t-0">Tablero</h3>
+                        <h3 class="text-themecolor m-b-0 m-t-0">Tablero Inicio</h3>
                         <small >Panel de control</small>
                         <ol class="breadcrumb">
                             <li class="breadcrumb-item"><a href="javascript:void(0)">Inicio</a></li>
@@ -58,6 +58,14 @@
                 </div>
 
         </div>
+
+
+
+
+        
+
+
+
 
     </div>
 

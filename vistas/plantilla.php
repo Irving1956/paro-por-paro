@@ -75,7 +75,8 @@
 include "modulos/cabezote.php";
 
 include "modulos/menu.php";
-include "modulos/inicio.php";
+
+
 
 if (isset($_GET["ruta"])) {
     if ($_GET["ruta"] == "inicio" ||
@@ -85,6 +86,8 @@ if (isset($_GET["ruta"])) {
         $_GET["ruta"] == "clientes" ||
         $_GET["ruta"] == "venta" ||
         $_GET["ruta"] == "crear-venta" ||
+        $_GET["ruta"] == "parosReservados" ||
+        $_GET["ruta"] == "botones" ||
         $_GET["ruta"] == "reportes" ) {
         include "modulos/".$_GET["ruta"].".php";
     }

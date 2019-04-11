@@ -20,22 +20,21 @@
 
                         <li> <a class="has-arrow waves-effect waves-dark" href="categorias" aria-expanded="false"><i class="mdi mdi-sitemap"></i><span class="hide-menu">Categorias</span></a>
                             <ul aria-expanded="false" class="collapse">
-                                <li><a href="index.html">Dashboard 1</a></li>
-                                <li><a href="index2.html">Dashboard 2</a></li>
+                               
                             </ul>
                         </li>
 
-                        <li> <a class="has-arrow waves-effect waves-dark" href="productos" aria-expanded="false"><i class="mdi mdi-format-paragraph"></i><span class="hide-menu">Productos</span></a>
+                        <li> <a class="has-arrow waves-effect waves-dark" href="#" aria-expanded="false"><i class="mdi mdi-format-paragraph"></i><span class="hide-menu">Paros por hacer</span></a>
                             <ul aria-expanded="false" class="collapse">
-                                <li><a href="index.html">Dashboard 1</a></li>
-                                <li><a href="index2.html">Dashboard 2</a></li>
+                                <li><a href="parosReservados">Realiza un Paro</a></li>
+                                <li><a href="#">Hazlo Exprés</a></li>
+                                <li><a href="botones">Haz un Delivery</a></li>
                             </ul>
                         </li>
 
                         <li> <a class="has-arrow waves-effect waves-dark" href="clientes" aria-expanded="false"><i class="mdi mdi-trophy-award"></i><span class="hide-menu">Clientes</span></a>
                             <ul aria-expanded="false" class="collapse">
-                                <li><a href="index.html">Dashboard 1</a></li>
-                                <li><a href="index2.html">Dashboard 2</a></li>
+                        
                             </ul>
                         </li>
 
