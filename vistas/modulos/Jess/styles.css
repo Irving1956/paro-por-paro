@@ -1,0 +1,33 @@
+
+.navbar-brand {
+    color:  #d6d6d6;
+}
+.container{
+    font-family: 'Roboto', sans-serif;
+}
+.row-a{
+    height: 100px;
+    background: color #9BC8C5;
+    
+}
+.space{
+    height: 70px;
+}
+.question {
+    width: 300px;    
+}
+.button{
+    text-decoration: none;
+    padding: 10px;
+    font-weight: 600;
+    font-size: 20px;
+    color:#ffff;
+    background-color: #5D0074;
+    border-radius: 20px;
+    border: 2px solid #5D0074;
+    width: 350px;
+  }
+  .button:hover{
+    color: #5D0074;
+    background-color:#fff;
+  }
