@@ -1,0 +1,64 @@
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url("./whatsapp.jpg");
+}
+
+
+label{
+    width: 80%;
+    color: white;
+    font-family:'Roboto', sans-serif;
+    font-size: 40px;
+    font-weight: bold;  
+}
+
+input{
+    width: 80% !important;
+    height: 6em;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: bold;  
+}
+
+.contenedorInputs{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center ;
+    height: 80vh;
+    width: 100%;
+    justify-content: space-around;
+    font-size: 20px;
+    font-weight: bold;  
+}
+
+.input1{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+}
+
+input::placeholder{
+    font-size: 2em;
+}
+
+/* .botonsubmit{
+
+    display: flex;
+    align-items: center;
+    width: 50vw;
+    height: 10vh;
+
+}
+ */
+
+ .boton{
+     font-size: 50px;
+
+ }
