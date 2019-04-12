@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss/dist/tailwind.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="./style.css">
+  <title>Document</title>
+</head>
+<body class="flex flex-col">
+  <div id="top-bar" class="flex flex-row-reverse justify-between py-2 px-4 p-2 mx-2">
+      <div class="flex">
+        <button class="text-grey-dark hover:text-grey-darker p-2 mx-2">
+          <i class="fas fa-user-circle fa-lg"></i>
+        </button>
+        <button class="text-grey-dark hover:text-grey-darker" >
+          <i class="fas fa-bars fa-lg"></i>
+        </button>
+      </div>
+      <div class="py-2">
+        <a href="./landing.html" class="text-grey-dark hover:text-grey-darker" >
+            <i class="fas fa-angle-left fa-lg"></i>
+        </a>
+      </div>
+  </div>
+  <div class="px-4 mt-8">
+    <p class="text-xl">Descripción</p>
+    <div class="flex flex-col bg-grey-lightest border w-full pb-2">
+        <textarea class="bg-grey-lightest" rows="4" ></textarea>
+        <label for="photo" class="px-6 rounded border border-blue-lighter hover:border-blue self-end text-blue-dark mr-2"><i class="fas fa-camera"></i></label>
+        <input id="photo" type="file" hidden>
+    </div>
+    <div class="flex flex-row-reverse justify-between">
+      <label for="express" class="px-4 py-2 bg-grey-lightest rounded border text-sm">
+        <input id="express" type="radio" name="paro" >
+        Express
+      </label>
+      <label for="delivery" class="px-4 py-2 bg-grey-lightest rounded border text-sm">
+        <input id="delivery" type="radio" name="paro" >
+        Delivery
+      </label>
+      <label for="programado" class="px-4 py-2 bg-grey-lightest rounded border text-sm">
+        <input id="programado" type="radio" name="paro" >
+        Programado
+      </label>
+      
+    </div>
+  </div>
+  <div class="px-4 mt-8">
+    <p class="text-xl">Ubicación</p>
+    <div class="bg-grey-lightest border w-full" >
+      <iframe 
+      src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d7527.350626267599!2d-99.18167484797935!3d19.383206629278273!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2smx!4v1554950992732!5m2!1ses!2smx" 
+      class="w-full"
+      frameborder="0" style="border:0" allowfullscreen></iframe>
+    </div>
+  </div>
+  <div class="px-4 mt-8 mb-4">
+    <p class="text-xl mb-6">Recompensa</p>
+    <div class="flex flex-row-reverse justify-center pb-2">
+      <button class="py-2 px-4 ml-2 border bg-grey-lightest hover:border-blue-dark rounded-full">$50</button>
+      <button class="py-2 px-4 ml-2 border bg-grey-lightest hover:border-blue-dark rounded-full">$100</button>
+      <button class="py-2 px-4 ml-2 border bg-grey-lightest hover:border-blue-dark rounded-full">$200</button>
+    </div>
+    <div class="flex flex-row-reverse justify-center">
+      <button class="py-2 px-4 border bg-grey-lightest rounded-full">
+        <span>Big deal: $</span>
+        <input class="bg-grey-lightest focus:border-b" type="text">
+      </button>
+    </div>
+    <div class="flex mt-6">
+      <button class="py-2 rounded-full border border-blue text-white font-bold bg-blue hover:bg-blue-dark w-full">Solicitar paro!</button>
+    </div>
+  </div>
+</body>
+</html>
